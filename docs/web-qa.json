@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "checks": [
+    "selection persists from 3D to 2D",
+    "component button keyboard Enter selects UART",
+    "no console errors",
+    "narrow viewport without page overflow"
+  ],
+  "content": 375,
+  "drawText": "60 draws: median 0.500 ms, max 11.200 ms of synchronous Canvas drawing code on this browser.",
+  "viewport": 375,
+  "drawEnvironment": {
+    "canvasCssHeight": 430,
+    "canvasCssWidth": 970.4000244140624,
+    "devicePixelRatio": 1.25,
+    "viewportWidth": 1521
+  }
+}

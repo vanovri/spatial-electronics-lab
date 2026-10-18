@@ -1,0 +1,115 @@
+{
+  "status": "pass",
+  "data": "synthetic",
+  "mode": "real_gradle",
+  "source_sha256": {
+    ".gitattributes": "b7d3855732381b5154d0da0c326e2a0720a817bf195e5b79039c6cccd877c4b0",
+    ".gitignore": "772c95ae29f4490ba0f523c992c415faeaf187f6eb9a3dfec4620bcf59d152c1",
+    "AGENT_GOAL_PROMPT.md": "d8a12b31d21e2d2f092ce335d22ac886f5b62f1823c45691a8736a2406f28e53",
+    "build.gradle.kts": "61cd8e15a65a3ded440013250aa5c2bbc875158d0cf2db2e8fc5185ec3c69105",
+    "gradle.properties": "d83e273790ac248fa6c70b82fbdeec7d8146773136a9028845247cb63873ffee",
+    "gradlew": "a3648413b47ef77af21d5ebc36c687c7d103aaef3e17f33de7d4f080a6f300a3",
+    "gradlew.bat": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f",
+    "LICENSE": "d348ffd8053c7988323883ca28a32ddc43e0daf8ca3d7e9ebd45737963534393",
+    "local.properties": "46935441c86b45ac5d5a94bf1805ba59632096a069c3f5c079d55b276f7001d1",
+    "README.md": "8457c7fe4a273caf62fe9fbdc56455b7295c38c00b2a2a9198612defb40a775b",
+    "self_healing_gradle_loop.py": "9914c52d15b6ffa757fab8c3ee478fb4e67297faacc540a2dfe21422d84dfee8",
+    "settings.gradle.kts": "f0267ea18c10be6b73c6f62886e07b6e2a189fbf1fdb35d6d55805fc32ae2b98",
+    "THIRD_PARTY.md": "1c052643d34ca14f948569c0ccabba2acbaec28f0b5ce0dc066c67c7aea92d34",
+    "app/build.gradle.kts": "8d866d05ab087f8081a221cbcc720691cc75cc465dfdab22e8bec2969f4f2cff",
+    "docs/web-mobile.png": "391979a9dd572998918596c0c4787764dc115fcdce110453af75ca11295e8ed7",
+    "docs/web-preview.png": "cb09f9922414c1c39d43dcab821ec92804e1a70326647a9dc16fbc0fb17861ec",
+    "docs/web-qa.json": "2990517071489da7e9639a4bfe711e113a6fa8ba0d94298d4bf1fe4f48e59ab1",
+    "licenses/Gradle-LICENSE.txt": "9536d88ea948603d18e232a13f5958d67807cd80828036b082bff171d2cf0703",
+    "tests/geometry.test.mjs": "a8ae22c02caf0cf002f71b61d926b9c5e3d6b5171f24d2415f2a136219883a0e",
+    "tests/test_repair.py": "eaf8d89d13615dd8be95771d2a951d8cb8a1ae19cdecfc41a199e43493cabc3c",
+    "web/app.mjs": "a8211ecd33348da41b1be64fc26f3b6479b19384cea75aabbc493a918e79c661",
+    "web/geometry.mjs": "d52991d5f786831966435001d4f3928d25302735f929584f1010685e4fe275f4",
+    "web/index.html": "9dca0bb9c7dcb597348ba96307e1c54a455e8b3961bd7fa88d85d47fdc29a968",
+    "web/style.css": "effa4f21b942b9c86947bdf4e88af7e9c4b185064e6191406daf5a111587abc7",
+    "gradle/wrapper/gradle-wrapper.jar": "498495120a03b9a6ab5d155f5de3c8f0d986a449153702fb80fc80e134484f17",
+    "gradle/wrapper/gradle-wrapper.properties": "40ad196c886842d44adb88e1c64445c55720cf0855fa0c5585f35449e7fc2385",
+    "app/src/main/AndroidManifest.xml": "47d6caa0f5f1fe80d98f5b0d56756500b4b082018e670486e8452e18b4419002",
+    "app/src/test/java/id/autonomous/spatialmap/GeometryTest.kt": "4f5f45815401357618a9000f0bdeecc9810a0acbbe1bc7952ba36525b27e79c4",
+    "app/src/main/assets/lab.json": "abe15fea330ab4a6b85eb91ca26e735cee5a5b77742e1af4488f24dcdb714c6e",
+    "app/src/main/java/id/autonomous/spatialmap/Geometry.kt": "21fb49c4955162cf2bef5ee9060e7964b83e39b5dad0ecc7f9474cca3bca029e",
+    "app/src/main/java/id/autonomous/spatialmap/MainActivity.kt": "ce59bc0fece57df954333b746183c530a8418a191d9ba28e01bba5880e7dba34",
+    ".github/workflows/verify.yml": "1c9f25445491a7747ef778e35d7fd2a8f74e516c1b6878515836dc9b6e05a3fb"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 1,
+      "diagnostics": [
+        {
+          "file": "Geometry.kt",
+          "line": 16,
+          "col": 36,
+          "message": "Return type mismatch: expected 'kotlin.Float', actual 'kotlin.Double'."
+        },
+        {
+          "file": "MainActivity.kt",
+          "line": 86,
+          "col": 31,
+          "message": "Unresolved reference 'detectTransformGestures'."
+        },
+        {
+          "file": "MainActivity.kt",
+          "line": 86,
+          "col": 57,
+          "message": "Cannot infer type for this parameter. Please specify it explicitly."
+        },
+        {
+          "file": "MainActivity.kt",
+          "line": 86,
+          "col": 59,
+          "message": "Cannot infer type for this parameter. Please specify it explicitly."
+        },
+        {
+          "file": "MainActivity.kt",
+          "line": 86,
+          "col": 63,
+          "message": "Cannot infer type for this parameter. Please specify it explicitly."
+        },
+        {
+          "file": "MainActivity.kt",
+          "line": 86,
+          "col": 68,
+          "message": "Cannot infer type for this parameter. Please specify it explicitly."
+        },
+        {
+          "file": "MainActivity.kt",
+          "line": 87,
+          "col": 81,
+          "message": "Unresolved reference 'x'."
+        },
+        {
+          "file": "MainActivity.kt",
+          "line": 88,
+          "col": 56,
+          "message": "Unresolved reference 'y'."
+        }
+      ],
+      "log": "build-attempt-1.log",
+      "patched": [
+        "app/src/main/java/id/autonomous/spatialmap/Geometry.kt",
+        "app/src/main/java/id/autonomous/spatialmap/MainActivity.kt"
+      ]
+    },
+    {
+      "attempt": 2,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log": "build-attempt-2.log"
+    }
+  ],
+  "apk_sha256": "371d68f58378e93d7843c3fd872cdb6fd23c59c48b359701307392df7f6c5f6b",
+  "apk_bytes": 8740472,
+  "source_preserved": true,
+  "changed_files": [
+    "app/src/main/java/id/autonomous/spatialmap/Geometry.kt",
+    "app/src/main/java/id/autonomous/spatialmap/MainActivity.kt"
+  ],
+  "working_copy": "/tmp/spatial-compiler-repair-0w9y48oi/project",
+  "tests": "Gradle testDebugUnitTest included"
+}

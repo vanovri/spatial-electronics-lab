@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "data": "synthetic",
+  "units": "illustrative scene units, not measured board dimensions",
+  "components": [
+    {"id":"mcu","name":"Microcontroller","x":-105,"y":-65,"width":115,"depth":80,"height":28,"color":"7b9c7c","description":"Coordinates the example sensor circuit. Pin labels are illustrative and do not specify a real MCU pinout.","pins":["3V3","GND","SDA","SCL","TX","RX"],"links":["imu","temperature","uart"]},
+    {"id":"imu","name":"Motion sensor","x":105,"y":75,"width":70,"depth":60,"height":65,"color":"809bb2","description":"Example motion-sensor block connected over I2C. Height identifies the block visually, not acceleration or a measured physical dimension.","pins":["3V3","GND","SDA","SCL"],"links":["mcu"]},
+    {"id":"temperature","name":"Temperature sensor","x":-115,"y":95,"width":70,"depth":60,"height":95,"color":"c5a96c","description":"Example temperature-sensor block on the shared I2C connection. No real sensor data is acquired.","pins":["3V3","GND","SDA","SCL"],"links":["mcu"]},
+    {"id":"uart","name":"USB-UART bridge","x":120,"y":-100,"width":100,"depth":65,"height":40,"color":"b58e84","description":"Illustrative serial bridge. TX and RX naming depends on the chosen hardware endpoint; consult actual datasheets before wiring.","pins":["GND","TX","RX"],"links":["mcu"]}
+  ]
+}
