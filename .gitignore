@@ -6,3 +6,6 @@ local.properties
 __pycache__/
 dist/
 reports/local-*
+
+graphify-out/
+
