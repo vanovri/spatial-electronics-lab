@@ -106,7 +106,7 @@ sequenceDiagram
 
 ## Local Verification & Test Commands
 
-Run the cross-platform Node and Python verification suites on Windows/macOS/Linux from `C:\Users\ardhy\Projects\spatial-electronics-lab`:
+Run the cross-platform Node and Python verification suites on Windows/macOS/Linux from `the repository root`:
 
 ```powershell
 node --test tests/*.test.mjs
