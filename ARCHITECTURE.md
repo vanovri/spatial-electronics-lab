@@ -57,7 +57,7 @@ sequenceDiagram
   WebApp->>Geom: validateScene(lab.json) -> verify schema_version=1, bounds <= 220, links
   WebApp->>Geom: orderedFaces(components, camera, width, height)
   Geom->>Geom: Rotate (x, y) by yaw, compute depth = distance + ry*cos(pitch) - z*sin(pitch)
-  Geom->>Geom: Cull vertices with depth <= 10; project 8 box corners & 5 visible quads
+  Geom->>Geom: Cull vertices with depth <= 10, project 8 box corners & 5 visible quads
   Geom-->>WebApp: Quads sorted descending by mean vertex depth (back-to-front)
   WebApp-->>User: Render grid -> links -> sorted 3D faces (or 2D rects) -> pin markers & inspector
 
@@ -120,3 +120,7 @@ On Linux or WSL with Android SDK/JDK configured (as in `.github/workflows/verify
 ./gradlew testDebugUnitTest assembleDebug --no-daemon
 python3 self_healing_gradle_loop.py --report reports/ci-repair.json
 ```
+
+## Source crosscheck, 2026-11-08
+
+The working copy is created by mkdtemp and is currently retained after the repair run despite its temporary location. The cleanup diff is a proposal only. Real compiler repair requires Linux/WSL, JDK, Android SDK and Gradle; Python parser tests alone do not demonstrate an actual repaired APK. Android selection assumes mcu exists, and the Android loader lacks the browser schema validation. The browser profiler measures synchronous draw-call duration, not GPU frame time or end-to-end FPS.

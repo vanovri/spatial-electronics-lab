@@ -3,8 +3,8 @@
   "data": "synthetic",
   "mode": "real_gradle",
   "source_sha256": {
-    ".gitattributes": "b7d3855732381b5154d0da0c326e2a0720a817bf195e5b79039c6cccd877c4b0",
-    ".gitignore": "772c95ae29f4490ba0f523c992c415faeaf187f6eb9a3dfec4620bcf59d152c1",
+    ".gitattributes": "61c60239cb21b557d622cd62b9ee61bdf290bf4b88330e7a2fcda4a8e80690b2",
+    ".gitignore": "a05023b168f4336d32fc6e66d6c54eaf059011a5a75e58a3ec70ec17f13f1252",
     "AGENT_GOAL_PROMPT.md": "d8a12b31d21e2d2f092ce335d22ac886f5b62f1823c45691a8736a2406f28e53",
     "build.gradle.kts": "61cd8e15a65a3ded440013250aa5c2bbc875158d0cf2db2e8fc5185ec3c69105",
     "gradle.properties": "d83e273790ac248fa6c70b82fbdeec7d8146773136a9028845247cb63873ffee",
@@ -34,7 +34,7 @@
     "app/src/main/assets/lab.json": "abe15fea330ab4a6b85eb91ca26e735cee5a5b77742e1af4488f24dcdb714c6e",
     "app/src/main/java/id/autonomous/spatialmap/Geometry.kt": "21fb49c4955162cf2bef5ee9060e7964b83e39b5dad0ecc7f9474cca3bca029e",
     "app/src/main/java/id/autonomous/spatialmap/MainActivity.kt": "ce59bc0fece57df954333b746183c530a8418a191d9ba28e01bba5880e7dba34",
-    ".github/workflows/verify.yml": "1c9f25445491a7747ef778e35d7fd2a8f74e516c1b6878515836dc9b6e05a3fb"
+    ".github/workflows/verify.yml": "33c0eaa85f95373ae6b4301746433a80902dd886b8fbe167bd33c2bf0372ef58"
   },
   "attempts": [
     {
